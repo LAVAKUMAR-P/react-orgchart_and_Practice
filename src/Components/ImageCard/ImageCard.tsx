@@ -4,7 +4,7 @@ import './imageCard.scss'
 function ImageCard() {
   return (
     <div className="image-container ">
-      <img src={image} alt="profile picture 🔼" width={200} height={100} />
+      <img src={image} alt="profile picture 🔼" width={200} height={150} />
     </div>
   )
 }

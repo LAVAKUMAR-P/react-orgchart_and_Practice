@@ -8,11 +8,17 @@
     min-height:max-content;
     max-height: max-content;
     padding: 10px;
+    padding: 2em;
+  .profile_info{
+    padding: 1em;
+    font-weight: bold;
+    place-content: center;
+  }
 }
 
 @media (min-width: 1024px) {
     .my-profile-container{
         display: grid;
-        grid-template-columns: 15% 80%;
+        grid-template-columns: 20% 80%;
     }
 }

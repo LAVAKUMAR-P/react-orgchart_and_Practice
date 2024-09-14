@@ -5,6 +5,9 @@ import { CiMobile3 } from "react-icons/ci";
 import { MdOutlineAttachEmail } from "react-icons/md";
 import { SlCalender } from "react-icons/sl";
 import {get} from 'lodash';
+import { useSelector } from "react-redux";
+
+
 
 interface dataType {
     icon:string|JSX.Element,
@@ -12,6 +15,10 @@ interface dataType {
     path:string,
 }
 function BasicinfoCard(): JSX.Element {
+  const selector = useSelector((state)=> state);
+  const profileData:object = get(selector,'profile.profile',{})
+  console.log(profileData);
+  
   const dataOne : dataType[] = [
     {
       icon: <CiLocationOn/>,
@@ -52,17 +59,17 @@ function BasicinfoCard(): JSX.Element {
       <div>
       {
         dataOne.map((data,index)=>{
-           return <li key={index}>{data.icon} : {get()}</li>
+           return <div key={index}>{data.icon} : {get(profileData,`${data.path}`,'') ? get(profileData,`${data.path}`,'') : `kindly add ${data.name}`}</div>
         })
       }
       </div>
-      <div>
+      {/* <div>
       {
         dataTwo.map((data,index)=>{
-           return <li key={index}>{data.name}</li>
+           return <li key={index}>{data.icon} : {get(profileData,`${data.path}`,'')}</li>
         })
       }
-      </div>
+      </div> */}
     </div>
   );
 }
