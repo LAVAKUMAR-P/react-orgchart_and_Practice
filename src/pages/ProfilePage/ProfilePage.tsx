@@ -14,7 +14,6 @@ function ProfilePage() {
           interactions, and team collaboration. Thrives in dynamic environments
           and enthusiastically adopts new technologies.
         </div>
-        .......
       </div>
     </div>
   );

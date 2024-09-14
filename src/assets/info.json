@@ -1,0 +1,154 @@
+
+
+{
+    "profile": {
+      "name": "LAVAKUMAR P",
+      "headline": "Software Engineer at Straive",
+      "last_updated": "Sep 14, 2024",
+      "location": {
+        "city": "Chennai",
+        "country": "India"
+      },
+      "experience_years": 3,
+      "salary": {
+        "current_salary": "₹ 4.3 LPA",
+        "expected_salary": "Open to discussion"
+      },
+      "contact": {
+        "phone": "7339238342",
+        "email": "lavakumar16000@gmail.com",
+        "notice_period": "1 Month"
+      },
+      "availability": {
+        "can_start_after_offer": "1 Month after offer acceptance"
+      },
+      "preferred_work_locations": [
+        "Anywhere outside India",
+        "Bangalore",
+        "Chennai",
+        "Coimbatore",
+        "South India",
+        "Work from home / Remote"
+      ],
+      "resume": {
+        "file_name": "Lavakumar_P.pdf",
+        "uploaded_on": "Sep 14, 2024",
+        "supported_formats": ["doc", "docx", "rtf", "pdf"],
+        "max_size_mb": 2
+      },
+      "summary": "Experienced Fullstack Developer specializing in React js | MERN Stack | Agile | Node.js | Redux | REST API, Software Development, Software Design, Software Debugging, Software Deployment, Software Analysis, Application Development",
+      "skills": [
+        { "name": "React.js", "level": "expert", "IT_skill": true },
+        { "name": "JavaScript", "level": "expert", "IT_skill": true },
+        { "name": "MongoDB", "level": "expert", "IT_skill": true },
+        { "name": "HTML/CSS", "level": "expert", "IT_skill": true },
+        { "name": "Sass / Less", "level": "expert", "IT_skill": true },
+        { "name": "Node.js", "level": "expert", "IT_skill": true },
+        { "name": "TypeScript", "level": "intermediate", "IT_skill": true },
+        { "name": "Agile Methodology", "level": "intermediate", "IT_skill": true },
+        { "name": "Express.js", "level": "intermediate", "IT_skill": true },
+        { "name": "Responsive Web Design", "level": "intermediate", "IT_skill": true },
+        { "name": "REST API Development", "level": "intermediate", "IT_skill": true },
+        { "name": "Fullstack Development", "level": "intermediate", "IT_skill": true },
+        { "name": "Application Development", "level": "beginner", "IT_skill": true },
+        { "name": "NoSQL", "level": "beginner", "IT_skill": true },
+        { "name": "Software Debugging", "level": "beginner", "IT_skill": true },
+        { "name": "Software Deployment", "level": "beginner", "IT_skill": true },
+        { "name": "Software Analysis", "level": "beginner", "IT_skill": true },
+        { "name": "Software Design", "level": "beginner", "IT_skill": true }
+      ],
+      "employment": [
+        {
+          "title": "Software Engineer",
+          "company": "Straive",
+          "type": "Full-time",
+          "start_date": "Apr 2022",
+          "end_date": "Present",
+          "duration": "2 years 6 months",
+          "notice_period": "1 Month",
+          "description": "Straive provides data and AI solutions for research, EdTech, and information services. Developed and maintained a React.js-based copy-editing SaaS project, leveraging both functional (hooks) and class-based components for enhanced performance and code reuse."
+        },
+        {
+          "title": "Front End Developer",
+          "company": "Straive",
+          "type": "Internship",
+          "start_date": "Jan 2022",
+          "end_date": "Apr 2022",
+          "duration": "4 months"
+        }
+      ],
+      "education": [
+        {
+          "degree": "B.Tech/B.E. Mechanical",
+          "institution": "K.S.R. College of Engineering",
+          "year": "2017-2021",
+          "type": "Full Time"
+        }
+      ],
+      "projects": [
+        {
+          "name": "Nodi & Akira EDIT: Web-based SaaS Tool",
+          "company": "Straive",
+          "location": "Offsite",
+          "start_date": "Jan 2022",
+          "end_date": "Present",
+          "description": "Nodi & jats (Akira edit), Straive's cutting-edge editing tool, drastically reducing copy editors' time with faster, advanced capabilities. Designed and implemented features to automate manual tasks, enhancing user efficiency and productivity."
+        }
+      ],
+      "online_profiles": [
+        {
+          "platform": "LinkedIn",
+          "url": "https://www.linkedin.com/in/lavakumar-p-71b32015a/"
+        },
+        {
+          "platform": "Github",
+          "url": "https://github.com/LAVAKUMAR-P"
+        },
+        {
+          "platform": "Portfolio",
+          "url": "https://the-fullstack-developer.netlify.app/"
+        }
+      ],
+      "certifications": [
+        {
+          "title": "Full Stack Program",
+          "institution": "Guvi Geek Network Pvt. Ltd",
+          "url": "https://www.guvi.in/certificate?id=Y61Hn50hLz0u410037",
+          "validity": "Does not expire"
+        },
+        {
+          "title": "JavaScript",
+          "institution": "GUVI Geek Networks, IITM Research Park",
+          "url": "https://www.guvi.in/certificate?id=880D22ch71T1r2U6nN",
+          "validity": "Does not expire"
+        }
+      ],
+      "personal_details": {
+        "gender": "male",
+        "marital_status": "Single / unmarried",
+        "dob": "16 Jan 2000",
+        "differently_abled": "No",
+        "career_break": "No",
+        "address": "8/144, Kanakupillai Kadu, Vanavasi (PO), Salem (DT), Tamil Nadu, 636457, India",
+        "languages": [
+          {
+            "language": "Tamil",
+            "proficiency": {
+              "read": "Expert",
+              "write": "Expert",
+              "speak": "Expert"
+            }
+          },
+          {
+            "language": "English",
+            "proficiency": {
+              "read": "Proficient",
+              "write": "Proficient",
+              "speak": "Proficient"
+            }
+          }
+        ]
+      }
+    }
+  }
+  
