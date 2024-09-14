@@ -1,6 +1,7 @@
 import './App.css'
-import Card from './Components/Card/Card'
-import ProfilePage from './ProfilePage/ProfilePage'
+// import Card from './Components/Card/Card'
+import ProfilePage from './pages/ProfilePage/ProfilePage'
+import TodoPage from './pages/TodoPage/TodoPage'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
      {/* <Card  name="data" age={50} MoreData={["happy"]}/> */}
     <ProfilePage/>
+    {/* <TodoPage/> */}
     </>
   )
 }

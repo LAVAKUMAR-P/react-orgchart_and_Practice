@@ -1,9 +1,9 @@
 import image from '../../assets/image.png'
-
+import './imageCard.scss'
 
 function ImageCard() {
   return (
-    <div className="bg-green-50 rounded-s-sm max-w-52 p-4 rounded-md hover:cursor-pointer min-w-52">
+    <div className="image-container ">
       <img src={image} alt="profile picture 🔼" width={200} height={100} />
     </div>
   )

@@ -5,8 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      gridTemplateColumns: {
+          'custom': '15% 85%', // Define your custom grid template columns
+      },
   },
+},
   plugins: [],
 }
 
