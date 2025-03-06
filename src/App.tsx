@@ -5,6 +5,7 @@ import ProfilePage from './pages/ProfilePage/ProfilePage'
 import TodoPage from './pages/TodoPage/TodoPage'
 import { useEffect } from 'react';
 import { addProfileData } from './Redux/profileSclice';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   const dispatch = useDispatch();
@@ -15,9 +16,12 @@ function App() {
 
   return (
     <>
-     {/* <Card  name="data" age={50} MoreData={["happy"]}/> */}
-    <ProfilePage/>
-    {/* <TodoPage/> */}
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<ProfilePage/>}/>
+      <Route path='/' element={<ProfilePage/>}/>
+    </Routes>
+    </BrowserRouter>
     </>
   )
 }
